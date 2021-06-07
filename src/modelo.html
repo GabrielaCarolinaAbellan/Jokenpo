@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
     <header>
         <h1>JoKenPô</h1>
@@ -14,21 +16,24 @@
     <section>
         <div>
             <h2>Teste sua sorte!</h2>
-            <p><img src = "pedra.png" alt='Pedra'>
-            <input type="radio" name="jok" id="ped"/>Pedra</p> 
-            <p><img src = "papel.png" alt='Papel'>
-            <input type="radio" name="jok" id="pap"/>Papel</p>
-            <p><img src = 'tesoura.png' alt='Tesoura'>
-            <input type="radio" name="jok" id="tes"/>Tesoura</p>
+            <p><img src="assets/pedra.png" alt='Pedra'>
+                <input type="radio" name="jok" id="ped" />Pedra
+            </p>
+            <p><img src="assets/papel.png" alt='Papel'>
+                <input type="radio" name="jok" id="pap" />Papel
+            </p>
+            <p><img src='assets/tesoura.png' alt='Tesoura'>
+                <input type="radio" name="jok" id="tes" />Tesoura
+            </p>
             <p>
                 <input type="button" value="Jogar" onclick="jogar()">
                 <input type="reset" value="Reset" onclick="resetar()">
-            </p>    
+            </p>
         </div>
-        <div id= "sort">
-            Computador jogou: 
+        <div id="sort">
+            Computador jogou:
         </div>
-        <div id = "res">  
+        <div id="res">
             Vencedor:
 
         </div>
@@ -36,6 +41,7 @@
     <footer>
         <p>&copy; Gabriela Paiva</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
